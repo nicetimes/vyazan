@@ -126,12 +126,6 @@ footer {
   margin-top: 8px;
 }
 
-.social-link {
-  display: flex;
-  width:30px;
-  height:30px;
-}
-
 .footer-contacts {
   font-family: 'Arial', sans-serif;
   font-size: 13px;
@@ -178,4 +172,11 @@ footer {
   display: flex;
   align-items: flex-end;
   margin-right: 10px;
+}
+
+.social-link {
+  display: flex;
+  width:30px;
+  height:30px;
+  margin: 4px;
 }
