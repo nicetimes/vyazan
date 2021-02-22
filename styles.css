@@ -6,7 +6,7 @@ body {
 header {
   display: flex;
   align-items: center;
-  padding: 11px 63px 0;
+  padding: 16px 72px 15px;
 }
 
 footer {
@@ -19,12 +19,15 @@ footer {
 .header-link {
   text-decoration: none;
   color: black;
-  font-family: 'Commissioner', 'Arial', sans-serif;
-  font-size: 28px;
+  font: 28px 'Commissioner', 'Arial', sans-serif;
+}
+
+.header-link span {
+  padding: 0 10px;
 }
 
 .nav {
-  margin: 0px 42px;
+  margin: 0px 45px;
 }
 
 .link-logo {
@@ -34,25 +37,25 @@ footer {
 .nav-list {
   display: flex;
   list-style: none;
-  margin: 0;
+  margin: 9px 0 0;
   padding: 0;
 }
 
 .nav-item {
-  margin-right: 7px;
+  margin-right: 10px;
 }
 
 .nav-item a {
-  padding: 0 12px;
+  padding: 0;
 }
 
 .active {
   background-color: #f5f51b;
-  padding: 0 20px;
 }
 
 .tel {
   margin-left: auto;
+  margin-top: 9px;
 }
 
 .inner {
@@ -60,11 +63,8 @@ footer {
 }
 
 .main-title {
-  font-family: 'Roboto', 'Arial', sans-serif;
-  font-size: 60px;
-  letter-spacing: -2px;
-  line-height: 60px;
-  margin: 47px 0 33px;
+  font: 57px/60px 'Roboto', 'Arial', sans-serif;
+  margin: 46px 0 33px;
 }
 
 .lead {
@@ -72,63 +72,53 @@ footer {
 }
 
 .lead-text {
-  font-family: 'Roboto', 'Arial', sans-serif;
-  font-size: 25.4px;
+  font: 25px/36px 'Roboto', 'Arial', sans-serif;
   font-weight: bold;
-  line-height: 35px;
+  width: 590px;
   margin: 0;
 }
 
 .lead-text p {
   margin: 0;
-  padding-right: 35px;
 }
 
 .lead-pic {
   width: 180px;
-  margin: 0 26px 0 20px;
+  margin: 0 26px 0 59px;
 }
 
 .lead-pic img {
-  padding: 9px 17px;
+  padding: 8px 20px 3px;
 }
 
 .lead-pic figcaption {
-  font-family: 'Arial', sans-serif;
-  font-size: 19px;
-  line-height: 22px;
+  font: 19px/22px 'Arial', sans-serif;
   margin-top: -2px;
   padding-left: 10px;
 }
 
-.growing-title {
-  font-family: 'Commissioner', 'Arial', sans-serif;
-  font-size: 46px;
-  letter-spacing: -1px;
-  margin: 54px 0 23px;
+.article-title {
+  font: 47px 'Commissioner', 'Arial', sans-serif;
+  margin: 51px 0 23px;
 }
 
-.growing-text {
-  font-family: 'Commissioner', 'Arial', sans-serif;
-  font-size: 23px;
-  line-height: 30px;
-  padding-right: 202px;
-  margin-bottom: 38px;
+.article-text {
+  font: 23px/30px 'Commissioner', 'Arial', sans-serif;
+  margin: -2px 0 38px;
+  width: 660px;
 }
 
-.growing-pic {
+.article-pic {
   margin: 0;
 }
 
-.growing-pic figcaption {
-  font-family: 'Arial', sans-serif;
-  font-size: 17.8px;
-  margin-top: 8px;
+.article-pic figcaption {
+  font: 18px 'Arial', sans-serif;
+  margin: 4px 0 0 3px;
 }
 
 .footer-contacts {
-  font-family: 'Arial', sans-serif;
-  font-size: 13px;
+  font: 13px 'Arial', sans-serif;
 }
 
 .footer-contacts a {
@@ -153,8 +143,7 @@ footer {
 }
 
 .footer-adress {
-  font-family: 'Arial', sans-serif;
-  font-size: 13px;
+  font: 13px 'Arial', sans-serif;
   width: 300px;
   display: flex;
   align-items: flex-end;
